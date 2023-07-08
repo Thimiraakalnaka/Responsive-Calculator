@@ -22,7 +22,6 @@
     background:transparent;
     color: #fff;
     cursor: pointer;
-    /*box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.12);*/
 
 }
 
@@ -42,7 +41,7 @@ form .display input{
 
 form input.zero{
     width: 135px;
-   
+    background-color: rgb(31, 32, 32);
 }
 
 form input.operator{
@@ -52,5 +51,9 @@ form input.operator{
 
 form input.operator2{
     background-color: rgb(105, 104, 102);
-   
+   color: black;
    }
+
+ form input.numbers{
+    background-color: rgb(31, 32, 32);
+ }  
